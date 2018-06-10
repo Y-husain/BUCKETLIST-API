@@ -18,7 +18,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 Just type:
 
-```python -V
+```
+python -V
 ```
 
 in your terminal and if its not greater than or equal to 3.5, you're not in big trouble, there are tons of tutorials to get up up and running with these. Just grub one then come back when done.
@@ -29,17 +30,21 @@ Now, you have python3 and a way of running a virtual environment. Lets set up th
 
 1. Create your virtual environment. Usually, without any wrappers:
 
-```virtualenv -p python3  venv
+```
+virtualenv -p python3  venv
 ```
 
 2.Start your virtual environment:
 
-```source venv/bin/activate
+```
+
+source venv/bin/activate
 ```
 
 3.Install the project requirements specified in the requirements.txt file. Usually,
 
-```pip install -r requirements.txt
+```
+pip install -r requirements.txt
 ```
 
 4.*Do Migrations*. This application uses postgresql. If you don't have psql you may install it here.
@@ -47,13 +52,16 @@ Now, you have python3 and a way of running a virtual environment. Lets set up th
 Create a `flask_api` database to be used by the application while running on your localhost.
 Then, you can do migrations as:
 
-```python manage.py db init
+``
+python manage.py db init
 ```
 
-```python manage.py db migrate
+``
+python manage.py db migrate
 ```
 
-```python manage.py db upgrade
+```
+python manage.py db upgrade
 ```
 
 This is enough to get you started.
