@@ -52,11 +52,11 @@ pip install -r requirements.txt
 Create a `flask_api` database to be used by the application while running on your localhost.
 Then, you can do migrations as:
 
-``
+```
 python manage.py db init
 ```
 
-``
+```
 python manage.py db migrate
 ```
 
@@ -106,4 +106,4 @@ This project is currently under the [Creative Commons](https://creativecommons.o
 
 ## Acknowledgments
 
-*Andela Kenya - Inspiring the idea.
+* Andela Kenya - Inspiring the idea.
