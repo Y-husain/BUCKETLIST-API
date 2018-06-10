@@ -55,7 +55,7 @@ instance/
 
 # pyenv
 .python-version
-.vscode
+
 
 # dotenv
 .env
@@ -64,6 +64,8 @@ instance/
 venv
 venv/
 ENV/
-.vscode/
+
 # Editors
 .idea/
+.vscode
+.vscode/
