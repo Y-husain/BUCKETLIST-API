@@ -55,6 +55,7 @@ instance/
 
 # pyenv
 .python-version
+.vscode
 
 # dotenv
 .env
